@@ -4,6 +4,7 @@ import IconV1 from "@/components/IconV1";
 import Services from "@/components/(home)/Services";
 import Recommendation from "@/components/Recommendation";
 import { images } from "@/constant";
+import WhyMedi from "@/components/WhyMedi";
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
     <Recommendation/>
     <IconV1/>
     <Services/>
+    <WhyMedi/>
     <GoogleMapSection/>
     </>
   )

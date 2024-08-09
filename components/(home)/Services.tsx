@@ -18,7 +18,7 @@ const ourServices = () => {
                                 <Image
                                     src={group.src}
                                     alt={group.alt}
-                                    width={320}
+                                    width={1220}
                                     height={200}
                                     className="w-full h-auto object-cover"
                                 />
