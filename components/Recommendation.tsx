@@ -15,7 +15,7 @@ const aboutMedia = () => {
                         {ageGroupsM.map((group, index) => (
                             <div
                                 key={group.id}
-                                className="relative w-80 rounded-lg overflow-hidden shadow-lg bg-[#FEFFFE]"
+                                className="relative w-80 rounded-2xl overflow-hidden shadow-lg bg-[#FEFFFE]"
                                 style={{ marginLeft: index !== 0 ? '-40px' : '0' }}
                             >
                                 <Image
