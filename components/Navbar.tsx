@@ -29,7 +29,7 @@ const Navbar = () => {
             alt="logo"
             width={100}
             height={120}
-            className="relative  -bottom-7"
+            className="relative z-30  -bottom-7"
           />
         </Link>
 
