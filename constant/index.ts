@@ -702,3 +702,68 @@ export const NAV_LINKS = [
       imgSrc: "/path/to/image3.png",
     },
   ];
+
+
+  export const PACKAGES = [
+    { 
+      id: 1,
+      title: 'Fever',
+      items: [
+        'Fever Screening Panel - Advance',
+        'Fever Panel - Intermediate',
+        'Fever Panel Basic',
+      ],
+      icon: '/fever.webp', 
+      color: 'bg-[#F5F6E5]',
+    },
+    { 
+      id: 2,
+      title: 'Fertility',
+      items: [
+        'Fertility Panel, Male',
+        'Basic Fertility Panel, Male',
+      ],
+      icon: '/Fertility.webp',
+      color: 'bg-[#C9D851]',
+    },
+    { 
+      id: 3,
+      title: 'Healthy Heart',
+      items: [
+        'Lorem ipsum',
+        'Lorem ipsum',
+      ],
+      icon: '/heart.webp',
+      color: 'bg-[#F5F6E5]',
+    },
+    { 
+      id: 4,
+      title: 'Essential Minerals',
+      items: [
+        'Mineral Package Basic',
+        'Mineral Package Advance',
+      ],
+      icon: '/Minerals.webp',
+      color: 'bg-[#C9D851]',
+    },
+    { 
+      id: 5,
+      title: 'Pregnancy',
+      items: [
+        'Complete packages',
+        'Prenatal Trimester 1',
+        'Torch Test',
+        'Material Serum Marker',
+        'Ultrasound',
+      ],
+      icon: '/pregnancy.webp',
+      color: 'bg-[#F5F6E5]',
+    },
+    { 
+      id: 6,
+      title: 'More',
+      items: [],
+      icon: '/arrow-type.webp',
+      color: 'bg-[#C9D851]',
+    },
+  ];
