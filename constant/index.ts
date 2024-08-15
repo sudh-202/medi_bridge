@@ -767,3 +767,78 @@ export const NAV_LINKS = [
       color: 'bg-[#C9D851]',
     },
   ];
+
+  // constant/index.ts
+export const VITAL_ORGANS = [
+  { icon: '/liver.webp', label: 'Liver' },
+  { icon: '/Lungs.webp', label: 'Lungs' },
+  { icon: '/kidney.webp', label: 'Kidney' },
+  { icon: '/cbc.webp', label: 'CBC' },
+  { icon: '/thyroid.webp', label: 'Thyroid' },
+  { icon: '/Firtility.webp', label: 'Fertility' },
+];
+
+export const wellnessData = [
+  {
+    title: "Swasth Bihar Wellness 1",
+    originalPrice: 2500,
+    discountedPrice: 1500,
+    discount: "40% Off",
+    parameters: "80",
+    reportsTime: "6 hours",
+    image: "/family.webp", 
+  },
+  {
+    title: "Swasth Bihar Wellness 2",
+    originalPrice: 3000,
+    discountedPrice: 1800,
+    discount: "40% Off",
+    parameters: "100",
+    reportsTime: "8 hours",
+    image: "/family.webp", 
+  },
+  {
+    title: "Swasth Bihar Wellness 2",
+    originalPrice: 3000,
+    discountedPrice: 1800,
+    discount: "40% Off",
+    parameters: "100",
+    reportsTime: "8 hours",
+    image: "/family.webp", 
+  },
+  {
+    title: "Swasth Bihar Wellness 2",
+    originalPrice: 3000,
+    discountedPrice: 1800,
+    discount: "40% Off",
+    parameters: "100",
+    reportsTime: "8 hours",
+    image: "/family.webp", 
+  },
+  
+];
+
+// constants/index.ts
+export const carouselDataSec = [
+  {
+    id: 1,
+    title: "Pregnancy Test",
+    description: "80 Parameters included",
+    price: "₹1500/-",
+    originalPrice: "₹2500/-",
+    discount: "40% Off",
+    reportsTime: "Reports in 6 hours",
+    image: "/newdoc.webp",
+  },
+  {
+    id: 1,
+    title: "Pregnancy Test 2",
+    description: "80 Parameters included",
+    price: "₹1500/-",
+    originalPrice: "₹2500/-",
+    discount: "40% Off",
+    reportsTime: "Reports in 6 hours",
+    image: "/newdoc.webp",
+  },
+  
+];

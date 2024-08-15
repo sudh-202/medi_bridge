@@ -4,8 +4,8 @@ import { PACKAGES } from '@/constant/index';
 
 const PackagesSection: React.FC = () => {
   return (
-    <section className="py-[4vw] px-[6vw]">
-      <h2 className="text-center text-2xl font-semibold mb-6">All Type Packages</h2>
+    <section className="py-[7vw] px-[6vw]">
+      <h2 className="text-center text-[2vw] font-bold mb-6">All Type Packages</h2>
       <div className="flex flex-wrap justify-between gap-6">
         {PACKAGES.map((pkg, index) => (
           <div
