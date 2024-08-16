@@ -18,8 +18,8 @@ export default function Home() {
     <WellnessCard />
     <PackageCard/>
     <VitalOrgansSection/> 
-    <Recommendation/>
     <MergedCarousel/>
+    <Recommendation/>
     <IconV1/>
     <Services/>
     <WhyMedi/>
