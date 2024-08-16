@@ -32,14 +32,14 @@ const Newscarousel: React.FC = () => {
             <div className="flex items-center justify-between w-full max-w-screen-lg mx-auto">
                 <div className="flex flex-col items-start justify-center space-y-4 w-2/3 md:w-1/2">
                     <h2 className="text-[2vw] font-semibold leading-[1vw]">{currentItem.title}</h2>
-                    <h2 className="text-[3.2vw] font-semibold leading-[2.5vw]">{currentItem.title2}</h2>
-                    <p className="text-[1vw]">{currentItem.description}</p>
+                    <h2 className="text-[3.2vw] font-semibold leading-[2.5vw] text-[#52B2AD]">{currentItem.title2}</h2>
+                    <p className="text-[1vw] italic">{currentItem.description}</p>
                     <div className="flex flex-row items-center space-x-4">
-                        <button className="px-4 py-2 text-white bg-[#1C3A3F] rounded-full">
+                        <button className="px-8 py-2 text-white bg-[#1C3A3F] rounded-full">
                             {currentItem.buttonLabel} →
                         </button>
-                        <div className="flex items-center space-x-2 text-[#1C3A3F]">
-                            <Phone size={24} />
+                        <div className="flex items-center px-8 py-2 text-white bg-[#1C3A3F] rounded-full gap-3">
+                            <Image src="/phoneg.webp" alt='phone' width={23} height={23}/>
                             <span>{currentItem.phone}</span>
                         </div>
                     </div>
