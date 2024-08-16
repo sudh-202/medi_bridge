@@ -842,3 +842,26 @@ export const carouselDataSec = [
   },
   
 ];
+
+// constant/index.ts
+export const carouselDatanews = [
+  {
+      id: 1,
+      title: "Looking for an ",
+      title2: "Investigation?",
+      description: "People reach us to our customer care team, we would be happy to assist you by all means",
+      buttonLabel: "Our Services",
+      phone: "1800 889 8255",
+      image: "/customer.webp" 
+  },
+  {
+    id: 1,
+    title: "Looking for an Investigation? 2",
+    description: "People reach us to our customer care team, we would be happy to assist you by all means",
+    buttonLabel: "Our Services",
+    phone: "1800 889 8255",
+    image: "/customer.webp" 
+},
+ 
+];
+
