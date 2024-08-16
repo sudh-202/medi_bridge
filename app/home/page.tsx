@@ -9,6 +9,7 @@ import PackageCard from "@/components/(home)/PackageCard";
 import VitalOrgansSection from "@/components/(home)/VitalOrgansSection";
 import WellnessCard from "@/components/(home)/WellnessCard";
 import MergedCarousel from "@/components/(home)/MergedCarousel";
+import Blogs from "@/components/(home)/Blogs";
 
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
     <IconV1/>
     <Services/>
     <WhyMedi/>
+    <Blogs/>
     <GoogleMapSection/>
     </>
   )
