@@ -22,9 +22,9 @@ const WhyMedi = () => {
         */
         <div>
             <main className='flex flex-row items-center justify-center gap-10 translate-x-[10%]'>
-                <div className='w-1/2'>
+                {/* <div className='w-1/2'>
                     <Carousel />
-                </div>
+                </div> */}
                 <div className='w-1/2 flex flex-col'>
                     <div className="bg-white rounded-3xl px-10 py-5  mb-4 border-[#C9D851] border-2 w-1/2">
                         <Image src="/3steps.webp" alt="MediBridge Building" className="rounded-md mb-2 w-full h-auto" width={500} height={100} />
