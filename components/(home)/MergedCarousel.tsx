@@ -19,10 +19,10 @@ const Carousel: React.FC = () => {
     const currentItem = carouselDataSec[currentIndex];
 
     return (
-        <div className="relative flex items-center justify-center flex-row px-[5vw]">
+        <div className="relative flex items-center justify-center flex-row px-[8vw]">
             {/* Previous Arrow */}
             <button
-                className="absolute left-0 p-4 text-white bg-[#C9D851] rounded-full transform translate-x-[20%]"
+                className="absolute left-0 p-4 text-white bg-[#C9D851] rounded-full transform translate-x-[90%]"
                 onClick={handlePrevClick}
             >
                 <ChevronLeft size={24} />
@@ -96,7 +96,7 @@ const Carousel: React.FC = () => {
 
             {/* Next Arrow */}
             <button
-                className="absolute right-0 p-4 text-white bg-[#C9D851] rounded-full transform -translate-x-[20%]"
+                className="absolute right-0 p-4 text-white bg-[#C9D851] rounded-full transform -translate-x-[90%]"
                 onClick={handleNextClick}
             >
                 <ChevronRight size={24} />

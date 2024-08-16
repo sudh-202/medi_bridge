@@ -826,7 +826,7 @@ export const carouselDataSec = [
     description: "80 Parameters included",
     price: "₹1500/-",
     originalPrice: "₹2500/-",
-    discount: "1900",
+    discount: "₹1900",
     reportsTime: "Reports in 6 hours",
     image: "/newdoc.webp",
   },
