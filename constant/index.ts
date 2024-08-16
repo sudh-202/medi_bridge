@@ -866,3 +866,25 @@ export const carouselDatanews = [
  
 ];
 
+export const testimonials1 = [
+  {
+    name: "Saloni Adhikari",
+    review: "I had an excellent experience at Medi Bridge Diagnostic Center. The staff was incredibly friendly, accommodating, and professional. They took the time to answer all of my questions and made me feel at ease throughout my visit. The facility is clean, modern, and well-equipped with the latest technology. The results of my tests were accurate and delivered in a timely manner. I highly recommend Medi Bridge Diagnostic Center to anyone in need of diagnostic services. Thank you for the outstanding care!",
+    rating: 5,
+    image: "/path/to/image.jpg", 
+  },
+  {
+    name: "Saloni Adhikari 11",
+    review: "I had an excellent experience at Medi Bridge Diagnostic Center. The staff was incredibly friendly, accommodating, and professional...",
+    rating: 5,
+    image: "/path/to/image.jpg", 
+  },
+  {
+    name: "Saloni Adhikari 111",
+    review: "I had an excellent experience at Medi Bridge Diagnostic Center. The staff was incredibly friendly, accommodating, and professional...",
+    rating: 5,
+    image: "/path/to/image.jpg", 
+  },
+
+];
+

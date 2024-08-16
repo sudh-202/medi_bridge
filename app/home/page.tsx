@@ -11,6 +11,7 @@ import WellnessCard from "@/components/(home)/WellnessCard";
 import MergedCarousel from "@/components/(home)/MergedCarousel";
 import Blogs from "@/components/(home)/Blogs";
 import Newscarousel from "@/components/(home)/Newscarousel";
+import Testimonials from "@/components/(home)/Testimonials";
 
 
 export default function Home() {
@@ -26,6 +27,7 @@ export default function Home() {
     <Services/>
     <WhyMedi/>
     <Newscarousel/>
+    <Testimonials />
     <Blogs/>
     <GoogleMapSection/>
     </>
