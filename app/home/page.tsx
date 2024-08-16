@@ -17,9 +17,9 @@ export default function Home() {
     <ImageSlider images={images}/>
     <WellnessCard />
     <PackageCard/>
-    <VitalOrgansSection/>
-    <MergedCarousel/>
+    <VitalOrgansSection/> 
     <Recommendation/>
+    <MergedCarousel/>
     <IconV1/>
     <Services/>
     <WhyMedi/>
