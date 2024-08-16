@@ -19,7 +19,7 @@ const Newscarousel: React.FC = () => {
     const currentItem = carouselDatanews[currentIndex];
 
     return (
-        <div className="relative flex items-center justify-between px-20 py-10 bg-[#F5F6E5]">
+        <div className="relative flex items-center justify-between px-20  bg-[#F5F6E5]">
             {/* Previous Arrow */}
             <button
                 className="p-2 text-white bg-[#C9D851] rounded-full"
