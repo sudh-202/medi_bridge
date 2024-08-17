@@ -5,10 +5,10 @@ const ourServices = () => {
     return (
         <main className="flex flex-col w-full bg-[#FEFFFE]">
 
-            <div className="flex flex-col justify-center items-center max-w-[1960px] mx-auto">
-                <h2 className="md:text-3xl text-2xl font-medium uppercase pb-10">Our services</h2>
+            <div className="flex flex-col justify-center items-center pb-[6vw]">
+                <h2 className="text-[2.4vw] font-semibold mb-6 uppercase">Our services</h2>
                 <div className=" ">
-                    <div className="relative flex flex-wrap justify-center gap-14 pb-10">
+                    <div className="relative flex  justify-center gap-16 pb-10">
                         {OurServices.map((group, index) => (
                             <div
                                 key={group.id}

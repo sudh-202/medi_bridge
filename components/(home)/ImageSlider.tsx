@@ -46,10 +46,10 @@ const ImageSlider: React.FC<ImageSliderProps> = ({ images }) => {
       <Image 
         src={isMobile ? images[currentIndex].mobile : images[currentIndex].desktop}
         alt="slider"
-        width={1920}
-        height={1080}
+        width={2000}
+        height={100}
         priority // This attribute ensures the image is loaded with high priority
-        className="lg:w-full bg-contain" 
+        className="bg-conver " 
       />
       <button className="absolute right-0 top-[50%] transform translate-y-[-50%]">
         <Image src="/sidebutton.webp" alt="" width={40} height={36} />

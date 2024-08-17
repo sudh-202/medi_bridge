@@ -888,3 +888,32 @@ export const testimonials1 = [
 
 ];
 
+//Home 
+
+
+// constants/index.ts
+export const safetyMeasures = [
+  {
+    id: 1,
+    img: '/tempe.webp',
+    title: 'Temperature Checks',
+  },
+  {
+    id: 2,
+    img: '/sanitizer.webp',
+    title: 'Hand Sanitization',
+  },
+  {
+    id: 3,
+    img: '/mask.webp',
+    title: 'Use of Masks & Gloves',
+  },
+  {
+    id: 4,
+    img: '/dist.webp',
+    title: 'Social Distancing',
+  },
+];
+
+
+

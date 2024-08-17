@@ -4,10 +4,10 @@ import Image from "next/image"
 
 const aboutMedia = () => {
     return (
-        <main className="flex flex-col bg-[#FEFFFE] py-10">
+        <main className="flex flex-col bg-[#FEFFFE] py-[2vw]">
 
-            <div className="flex flex-col justify-center items-center max-w-7xl mx-auto">
-                <h2 className="lg:text-4xl text-2xl font-semibold ">Recommended Checkups for Men</h2>
+            <div className="flex flex-col justify-center items-center ">
+                <h2 className="text-[2.4vw] font-semibold   ">Recommended Checkups for Men</h2>
                 <p className="text-lg lg:p-2.5 text-center w-full lg:w-[60%] ">Curated by Doctors for you
                 </p>
                 <div className="container mx-auto py-10 px-4 border-gray-300 border-b-[1px]">
@@ -15,13 +15,13 @@ const aboutMedia = () => {
                         {ageGroupsM.map((group, index) => (
                             <div
                                 key={group.id}
-                                className="relative w-80 rounded-2xl overflow-hidden shadow-lg bg-[#FEFFFE]"
+                                className="relative w-80 rounded-3xl overflow-hidden shadow-lg bg-[#FEFFFE]"
                                 style={{ marginLeft: index !== 0 ? '-40px' : '0' }}
                             >
                                 <Image
                                     src={group.src}
                                     alt={group.alt}
-                                    width={320}
+                                    width={1220}
                                     height={200}
                                     className="w-full h-auto object-cover"
                                 />
@@ -45,13 +45,13 @@ const aboutMedia = () => {
                         {ageGroupsF.map((group, index) => (
                             <div
                                 key={group.id}
-                                className="relative w-80 rounded-lg overflow-hidden shadow-lg bg-[#FEFFFE]"
+                                className="relative w-80 rounded-3xl overflow-hidden shadow-lg bg-[#FEFFFE]"
                                 style={{ marginLeft: index !== 0 ? '-40px' : '0' }}
                             >
                                 <Image
                                     src={group.src}
                                     alt={group.alt}
-                                    width={320}
+                                    width={1220}
                                     height={200}
                                     className="w-full h-auto object-cover"
                                 />

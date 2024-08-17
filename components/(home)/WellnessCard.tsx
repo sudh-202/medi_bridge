@@ -71,8 +71,8 @@ const WellnessCard: React.FC<WellnessCardProps> = ({
         </div>
 
         {/* Bottom Section: Book Now Button */}
-        <div className="p-4 flex justify-center">
-          <button className="bg-[#1C3A3F] text-white font-semibold py-2 px-6 rounded-full hover:bg-[#2b565e]">
+        <div className="p-4 w- flex justify-center">
+          <button className="bg-[#1C3A3F] text-white font-semibold py-2 px-6 rounded-full hover:bg-[#2b565e] w-full mx-10">
             BOOK NOW
           </button>
         </div>
@@ -129,8 +129,8 @@ const WellnessCarousel: React.FC = () => {
   }, []);
 
   return (
-    <div className="py-16 px-4 sm:px-8 md:px-10 lg:px-20 xl:px-20 2xl:px-32 relative">
-      <h2 className="text-2xl lg:text-3xl font-bold mb-6 text-center">Full Body Packages</h2>
+    <div className="pt-[6vw] md:px-[10vw] lg:px-[7vw] relative">
+      <h2 className="text-[2.4vw] font-semibold mb-6 text-center">Full Body Packages</h2>
 
       {/* Carousel Wrapper */}
       <div className="relative">

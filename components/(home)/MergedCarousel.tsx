@@ -19,7 +19,7 @@ const Carousel: React.FC = () => {
     const currentItem = carouselDataSec[currentIndex];
 
     return (
-        <div className="relative flex items-center justify-center flex-row px-[8vw]">
+        <div className="relative flex items-center justify-center flex-row px-[9vw] bg-[url('/back.webp')] bg-cover">
             {/* Previous Arrow */}
             <button
                 className="absolute left-0 p-4 text-white bg-[#C9D851] rounded-full transform translate-x-[90%]"
@@ -29,16 +29,16 @@ const Carousel: React.FC = () => {
             </button>
 
             {/* Carousel Content */}
-            <section className="flex flex-row items-center gap-10 py-[10vw]">
+            <section className="flex flex-row items-center gap-10 py-[5vw]">
                 <div className="flex flex-col items-start justify-center w-1/3">
-                    <h2 className="text-[2.6vw] font-semibold pb-5">Get your pregnancy routine Test</h2>
+                    <h2 className="text-[2.4vw] font-semibold mb-6">Get your pregnancy routine Test</h2>
                     <p className="text-[1vw] pb-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut </p>
-                    <div className="flex flex-row justify-center items-center gap-5">
+                    <div className="flex flex-row justify-start items-center gap-5">
                         <Image src="/timer.webp" alt="timer" width={70} height={100} className="px-[1.6vw] py-[1.4vw] bg-[#F5F6E5] rounded-2xl" />
                         <p className="text-[1.5vw] w-1/2">Reports in 6 hours</p>
                     </div>
                 </div>
-                <Image src="/doctor1.webp" alt="doctor" width={100} height={100} className="w-1/3" />
+                <Image src="/doctor1.webp" alt="doctor" width={1200} height={100} className="w-1/3" />
 
                 <div className="bg-[#F2F3E7] rounded-2xl flex-shrink-0 w-1/3">
                     <div className="flex flex-col">
@@ -86,7 +86,7 @@ const Carousel: React.FC = () => {
 
                         {/* Bottom Section: Book Now Button */}
                         <div className="p-4 flex justify-center">
-                            <button className="bg-[#1C3A3F] text-white font-semibold py-2 px-6 rounded-full hover:bg-[#2b565e]">
+                            <button className="bg-[#1C3A3F] text-white font-semibold py-2 px-6 rounded-full hover:bg-[#2b565e] w-full mx-4">
                                 BOOK NOW
                             </button>
                         </div>

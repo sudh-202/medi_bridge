@@ -4,9 +4,9 @@ import { VITAL_ORGANS } from '@/constant/index';
 
 const VitalOrgansSection: React.FC = () => {
   return (
-    <section className="py-[4vw] px-[6vw] flex flex-col lg:flex-row items-center justify-between gap-8">
+    <section className="py-[10vw] px-[6vw] flex flex-col lg:flex-row items-center justify-between gap-8">
       <div className="lg:w-1/2">
-        <h2 className="text-4xl font-bold text-[#103B47] mb-4">For Vital Body Organs</h2>
+        <h2 className="text-[2.4vw] font-semibold mb-6  text-[#103B47] ">For Vital Body Organs</h2>
         <p className="text-[#103B47] mb-6 pr-[8vw]">
           Explore our comprehensive range of diagnostic tests tailored for vital body organs. Our specialized diagnostic tests focus on evaluating the well-being of essential body organs, ensuring you receive the care you deserve.
         </p>

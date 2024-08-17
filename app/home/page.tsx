@@ -12,6 +12,7 @@ import MergedCarousel from "@/components/(home)/MergedCarousel";
 import Blogs from "@/components/(home)/Blogs";
 import Newscarousel from "@/components/(home)/Newscarousel";
 import Testimonials from "@/components/(home)/Testimonials";
+import SafetyMeasuresSection from "@/components/(home)/SafetyMeasure";
 
 
 export default function Home() {
@@ -20,11 +21,12 @@ export default function Home() {
     <ImageSlider images={images}/>
     <WellnessCard />
     <PackageCard/>
-    <VitalOrgansSection/> 
     <MergedCarousel/>
+    <VitalOrgansSection/> 
     <Recommendation/>
     <IconV1/>
     <Services/>
+    <SafetyMeasuresSection/>
     <WhyMedi/>
     <Newscarousel/>
     <Testimonials />
