@@ -1,5 +1,5 @@
 import React from 'react';
-import { infoData } from '../constants';
+import { infoData } from '../constant';
 
 const LiverFunctionTest: React.FC = () => {
   const { title, features, price, buttonText } = infoData.liverFunctionTest;

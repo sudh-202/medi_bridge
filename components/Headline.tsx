@@ -1,5 +1,5 @@
 import React from 'react';
-import { infoData } from '../constants';
+import { infoData } from '../constant';
 import '../styles/customScrollbar.css';
 
 const Headline: React.FC = () => {
