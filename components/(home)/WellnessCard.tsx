@@ -25,8 +25,8 @@ const WellnessCard: React.FC<WellnessCardProps> = ({
   image,
 }) => {
   return (
-    <div className="bg-[#F2F3E7] rounded-2xl flex-shrink-0">
-      <div className="flex flex-col">
+    <div className="bg-[#F2F3E7] rounded-2xl flex-shrink-0  ">
+      <div className="flex flex-col ">
         {/* Top Section: Title and Price */}
         <div className="bg-[#C7DE57] rounded-t-2xl p-8 flex justify-between items-center">
           <h3 className="text-lg lg:text-2xl font-semibold text-black w-1/2">
@@ -129,7 +129,7 @@ const WellnessCarousel: React.FC = () => {
   }, []);
 
   return (
-    <div className="pt-[6vw] md:px-[10vw] lg:px-[7vw] relative">
+    <div className="pt-[6vw] md:px-[10vw] lg:px-[7vw] relative [mask-image:linear-gradient(to right, black 0%, black 80%, transparent 100%)]">
       <h2 className="text-[2.4vw] font-semibold mb-6 text-center">Full Body Packages</h2>
 
       {/* Carousel Wrapper */}
