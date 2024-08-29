@@ -1,4 +1,3 @@
-
 'use client';
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
@@ -6,7 +5,6 @@ import { CONTACT_FORM_FIELDS, CONTACT_DETAILS, SOCIALS } from '@/constant';
 import { toast } from 'react-toastify';
 import Link from 'next/link';
 import Image from 'next/image';
-
 
 const Contact: React.FC = () => {
     const [formData, setFormData] = useState({
@@ -42,13 +40,13 @@ const Contact: React.FC = () => {
     return (
         <main className="flex flex-col">
             {/* Contact Form Section */}
-            <div className=' flex lg:flex-row flex-col justify-center  lg:py-10 px-8 lg:px-40 lg:w-screen lg:gap-10 gap-7'>
+            <div className=' flex lg:flex-row flex-col justify-center lg:py-10 px-8 lg:px-40 lg:w-screen lg:gap-10 gap-7'>
                 <div className="flex-col mt-8 lg:mt-20 lg:w-[45%]">
                     <h1 className="lg:text-[80px] text-5xl font-normal text-[#52B2AD] pb-3">Contact <span className="text-[#C9D851]">us</span></h1>
                     <p className="text-md lg:text-xl text-md font-normal lg:w-3/4">Drop us a message with your requirement or just say hello and our team will get in touch with you within 2 hours.</p>
                 </div>
                 <div className="bg-[#C9D851] p-8 lg:p-14 flex justify-center flex-col lg:w-[55%]">
-                    <h3 className="font-medium text-[25px] flex justify-center py-3">Drop us a message and we'll get in touch</h3>
+                    <h3 className="font-medium text-[25px] flex justify-center py-3">Drop us a message and we&apos;ll get in touch</h3>
                     <div className="w-full">
                         <form onSubmit={handleSubmit} className="">
                             <div>
@@ -63,16 +61,16 @@ const Contact: React.FC = () => {
                                 />
                             </div>
                             {/* <div>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                placeholder={CONTACT_FORM_FIELDS.email.placeholder}
-                value={formData.email}
-                onChange={handleChange}
-                className="w-full my-2 px-3 py-4 border"
-              />
-            </div> */}
+                                <input
+                                    type="email"
+                                    id="email"
+                                    name="email"
+                                    placeholder={CONTACT_FORM_FIELDS.email.placeholder}
+                                    value={formData.email}
+                                    onChange={handleChange}
+                                    className="w-full my-2 px-3 py-4 border"
+                                />
+                            </div> */}
                             <div>
                                 <input
                                     type="text"
@@ -133,7 +131,6 @@ const Contact: React.FC = () => {
                 </div>
                 <div className="w-full lg:w-[40%] flex flex-col items-start justify-center pl-7">
                     <h2 className="text-[48px] font-normal mb-4 w-3/4 leading-[54px]">Get in touch with us directly</h2>
-                    {/* <span className='border bo'>b</span> */}
                     <div className="mb-4 flex items-start">
                         <span className="material-icons text-green-600 mr-2">location_on</span>
                         <p className='lg:w-3/5'>{CONTACT_DETAILS.address}</p>
@@ -158,17 +155,14 @@ const Contact: React.FC = () => {
                         <span className="material-icons text-[#52B2AD] mr-2">share</span>
                         <p>Follow us:</p>
                         <div className="flex ml-2">
-
                             <ul className="regular-14 flex gap-4 text-gray-30">
                                 {SOCIALS.links.map((link) => (
                                     <Link href="/" key={link}>
-                                        <Image src={link} alt="logo" width={24} height={24} className='text-[#52B2AD]  rounded-sm' />
+                                        <Image src={link} alt="logo" width={24} height={24} className='text-[#52B2AD] rounded-sm' />
                                     </Link>
                                 ))}
                                 <p className='text-lg text-white'>Follow us</p>
                             </ul>
-
-
                         </div>
                     </div>
                 </div>
