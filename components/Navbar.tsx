@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className="flex items-center gap-2">
 
           <Link href="/search" className="text-white flex flex-row gap-2 items-center">
-            <Image src="/searchicon.webp" alt="Search" width={100} height={100} className="w-[14px] h-[14px]" />
+            <Image src="/searchicon.webp" alt="Search" width={100} height={100} className="w-[14px] h-[14px] " />
             <span className="text-white">Search</span>
           </Link>
 
@@ -28,8 +28,8 @@ const Navbar = () => {
             src="/logo.svg"
             alt="logo"
             width={100}
-            height={120}
-            className="relative z-30  -bottom-7"
+            height={100}
+            className="relative z-30  -bottom-7 rounded-lg shadow-lg"
           />
         </Link>
 

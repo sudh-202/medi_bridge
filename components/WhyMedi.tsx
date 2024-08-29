@@ -40,13 +40,7 @@ const WhyMedi = () => {
                     height={100}
                     className=" mx-auto my-20"
                 />
-                <Image
-                    src="/letter.webp"
-                    alt="news1"
-                    width={1000}
-                    height={100}
-                    className=" mx-auto my-20"
-                />
+                
             </div>
         </>
     );

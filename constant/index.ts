@@ -212,6 +212,8 @@ export const NAV_LINKS = [
       { icon: 'facebook', link: 'https://facebook.com/medibridge' },
     ],
   };
+
+  
   
   // Careers Page
   
@@ -914,6 +916,18 @@ export const safetyMeasures = [
     title: 'Social Distancing',
   },
 ];
+
+// Careers Page
+
+
+
+
+
+
+
+
+
+
 
 
 

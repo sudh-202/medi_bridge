@@ -13,6 +13,7 @@ import Blogs from "@/components/(home)/Blogs";
 import Newscarousel from "@/components/(home)/Newscarousel";
 import Testimonials from "@/components/(home)/Testimonials";
 import SafetyMeasuresSection from "@/components/(home)/SafetyMeasure";
+import ImageGallery from "@/components/(home)/ImageGallery";
 
 
 export default function Home() {
@@ -30,6 +31,7 @@ export default function Home() {
     <WhyMedi/>
     <Newscarousel/>
     <Testimonials />
+    <ImageGallery />
     <Blogs/>
     <GoogleMapSection/>
     </>
