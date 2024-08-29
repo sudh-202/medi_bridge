@@ -1,10 +1,10 @@
 "use client";
 
 import Image from 'next/image';
-import { testContent } from '@/constants/index';
+import { testContent } from '@/constant';
 import Carousel from '@/components/carousel';
 import AccordionComponent from "@/components/accordion";
-import { fullBodyCheckupContent } from '@/constants';
+import { fullBodyCheckupContent } from '@/constant';
 
 const Test: React.FC = () => {
     const { title, subTitle, } = testContent;

@@ -2,7 +2,7 @@
 
 
 import React, { useRef, useState } from 'react';
-import { cards } from '@/constants/index';
+import { cards } from '@/constant';
 import Image from 'next/image';
 import Link from 'next/link';
 
