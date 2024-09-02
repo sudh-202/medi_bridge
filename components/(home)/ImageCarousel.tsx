@@ -19,7 +19,7 @@ const images = [
 
 export function ImageCarousel() {
   return (
-    <Carousel className="w-[45%]  relative md:translate-x-[125%] p-1 bg-[#0F3C49] rounded-2xl">
+    <Carousel className="md:w-[45%] m-[50px] flex items-center justify-center  relative md:translate-x-[125%] md:p-1 bg-[#0F3C49] rounded-2xl">
       <CarouselContent>
         {images.map((image, index) => (
           <CarouselItem key={index}>

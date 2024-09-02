@@ -7,7 +7,7 @@ const aboutMedia = () => {
         <main className="flex flex-col bg-[#FEFFFE] py-[2vw]">
 
             <div className="flex flex-col justify-center items-center ">
-                <h2 className="text-[2.4vw] font-semibold   ">Recommended Checkups for Men</h2>
+                <h2 className="md:text-[2.4vw] text-[7vw] font-semibold  text-center px-10 md:px-0">Recommended Checkups for Men</h2>
                 <p className="text-lg lg:p-2.5 text-center w-full lg:w-[60%] ">Curated by Doctors for you
                 </p>
                 <div className="container mx-auto py-10 px-4 border-gray-300 border-b-[1px]">
@@ -37,7 +37,7 @@ const aboutMedia = () => {
             </div>
 
             <div className="flex flex-col justify-center items-center max-w-7xl mx-auto pt-14">
-                <h2 className="lg:text-4xl text-2xl font-semibold ">Recommended Checkups for Women</h2>
+                <h2 className="md:text-[2.4vw] text-[7vw] font-semibold  text-center px-10 md:px-0">Recommended Checkups for Women</h2>
                 <p className="text-lg lg:p-2.5 text-center w-full lg:w-[60%] ">Curated by Doctors for you
                 </p>
                 <div className="container mx-auto py-10 px-4 border-black ">

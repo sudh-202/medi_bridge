@@ -5,12 +5,12 @@ import { PACKAGES } from '@/constant/index';
 const PackagesSection: React.FC = () => {
   return (
     <section className="py-[8vw] px-[7vw]">
-      <h2 className="text-center text-[2.4vw] font-semibold  mb-6">All Type Packages</h2>
+      <h2 className="text-center md:text-[2.4vw] text-[8vw] font-semibold  mb-6">All Type Packages</h2>
       <div className="flex flex-wrap justify-between gap-6">
         {PACKAGES.map((pkg, index) => (
           <div
             key={index}
-            className={`p-6 rounded-3xl ${pkg.color} flex flex-row gap-10 justify-center items-center w-full sm:w-[calc(50%-12px)] md:w-[calc(33.333%-16px)]`}
+            className={`p-6 rounded-3xl ${pkg.color} flex flex-row gap-10 justify-center items-center w-full sm:w-[calc(20%-12px)] md:w-[calc(33.333%-16px)]`}
           >
             <div className='flex relative flex-col justify-center '>
               <h3 className="text-[1.4vw] font-semibold">{pkg.title}</h3>

@@ -3,10 +3,10 @@ import Image from "next/image"
 
 const ourServices = () => {
     return (
-        <main className="flex flex-col w-full bg-[#FEFFFE]">
+        <main className="flex flex-col w-full bg-[#FEFFFE] p-4">
 
             <div className="flex flex-col justify-center items-center pb-[6vw]">
-                <h2 className="text-[2.4vw] font-semibold mb-6 uppercase">Our services</h2>
+                <h2 className="text-[6vw] md:text-[2.4vw] font-semibold mb-6 uppercase">Our services</h2>
                 <div className=" ">
                     <div className="relative flex  justify-center gap-16 pb-10">
                         {OurServices.map((group, index) => (

@@ -25,8 +25,8 @@ const WellnessCard: React.FC<WellnessCardProps> = ({
   image,
 }) => {
   return (
-    <div className="bg-[#F2F3E7] rounded-2xl flex-shrink-0  ">
-      <div className="flex flex-col ">
+    <div className="bg-[#F2F3E7] rounded-2xl flex-shrink-0 p-5 md:p-0">
+      <div className="flex flex-col">
         {/* Top Section: Title and Price */}
         <div className="bg-[#C7DE57] rounded-t-2xl p-8 flex justify-between items-center">
           <h3 className="text-lg lg:text-2xl font-semibold text-black w-1/2">
@@ -71,7 +71,7 @@ const WellnessCard: React.FC<WellnessCardProps> = ({
         </div>
 
         {/* Bottom Section: Book Now Button */}
-        <div className="p-4 w- flex justify-center">
+        <div className="p-4 flex justify-center">
           <button className="bg-[#1C3A3F] text-white font-semibold py-2 px-6 rounded-full hover:bg-[#2b565e] w-full mx-10">
             BOOK NOW
           </button>
@@ -129,19 +129,19 @@ const WellnessCarousel: React.FC = () => {
   }, []);
 
   return (
-    <div className="pt-[6vw] md:px-[10vw] lg:px-[7vw] relative [mask-image:linear-gradient(to right, black 0%, black 80%, transparent 100%)]">
-      <h2 className="text-[2.4vw] font-semibold mb-6 text-center">Full Body Packages</h2>
+    <div className="pt-[6vw] md:px-[10vw] lg:px-[7vw] relative overflow-hidden">
+      <h2 className="md:text-[2.4vw] text-[8vw] font-semibold mb-6 text-center">Full Body Packages</h2>
 
       {/* Carousel Wrapper */}
       <div className="relative">
-        <Carousel
-          ref={carouselRef}
-          className="flex space-x-5 overflow-x-auto scrollbar-hide"
-        >
-          {wellnessData.map((item, index) => (
-            <WellnessCard key={index} {...item} />
-          ))}
-        </Carousel>
+        <div className="relative flex space-x-5 overflow-x-auto scrollbar-hide ">
+          <Carousel ref={carouselRef} className="flex space-x-5 overflow-hidden [mask-image:linear-gradient(to_right, white 10%, white 70%, transparent 100%)]
+">
+            {wellnessData.map((item, index) => (
+              <WellnessCard key={index} {...item} />
+            ))}
+          </Carousel>
+        </div>
 
         {/* Left Arrow */}
         {showLeftArrow && (
