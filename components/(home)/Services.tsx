@@ -5,10 +5,10 @@ const ourServices = () => {
     return (
         <main className="flex flex-col w-full bg-[#FEFFFE] p-4">
 
-            <div className="flex flex-col justify-center items-center pb-[6vw]">
+            <div className="flex flex-col justify-center items-center ">
                 <h2 className="text-[6vw] md:text-[2.4vw] font-semibold mb-6 uppercase">Our services</h2>
                 <div className=" ">
-                    <div className="relative flex  justify-center gap-16 pb-10">
+                    <div className="relative flex  justify-center gap-16 ">
                         {OurServices.map((group, index) => (
                             <div
                                 key={group.id}
@@ -18,9 +18,9 @@ const ourServices = () => {
                                 <Image
                                     src={group.src}
                                     alt={group.alt}
-                                    width={1220}
-                                    height={200}
-                                    className="w-full h-auto object-cover"
+                                    width={100}
+                                    height={100}
+                                    className="w-[28vw] h-auto object-cover "
                                 />
                                 <div className="absolute top-4 left-4">
                                     <p className="lg:text-3xl font-bold text-white  bg-opacity-70 p-2 rounded">

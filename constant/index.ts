@@ -917,7 +917,29 @@ export const safetyMeasures = [
   },
 ];
 
-// Careers Page
+// constants/index.ts
+
+export const mediData = [
+  {
+    id: 1,
+    image: 'https://source.unsplash.com/random/800x600/?wellness',
+    title: 'Comprehensive Wellness',
+    description: 'We offer a full range of wellness services for body and mind.',
+  },
+  {
+    id: 2,
+    image: 'https://source.unsplash.com/random/800x600/?health',
+    title: 'Expert Guidance',
+    description: 'Our experts provide personalized plans tailored to your needs.',
+  },
+  {
+    id: 3,
+    image: 'https://source.unsplash.com/random/800x600/?fitness',
+    title: 'State-of-the-Art Facilities',
+    description: 'Enjoy your wellness journey in our cutting-edge facilities.',
+  },
+];
+
 
 
 

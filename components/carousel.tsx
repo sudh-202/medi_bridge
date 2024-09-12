@@ -19,7 +19,7 @@ const Carousel: React.FC = () => {
       {carouselData.map((slide, index) => (
         <div
           key={index}
-          className={`absolute inset-0 transition-opacity duration-1000  ${
+          className={`  ${
             index === current ? 'opacity-100' : 'opacity-0'
           }`}
         >
