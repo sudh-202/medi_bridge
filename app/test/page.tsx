@@ -5,6 +5,9 @@ import { testContent } from '@/constant';
 import Carousel from '@/components/carousel';
 import AccordionComponent from "@/components/accordion";
 import { fullBodyCheckupContent } from '@/constant';
+import WhyMedi from '@/components/WhyMedi';
+import Blogs from '@/components/(home)/Blogs';
+import GoogleMapSection from '@/components/GoogleMapSection';
 
 const Test: React.FC = () => {
     const { title, subTitle, } = testContent;
@@ -12,7 +15,7 @@ const Test: React.FC = () => {
 
 
     return (
-        <main className="px-[65px] max-w-screen-2xl pt-20 ">
+        <main className="px-[65px]  pt-20 ">
             <div className="flex gap-5 mb-20">
                 <section className="w-full">
                     <div className="bg-[#C9D851] p-[35px] rounded-2xl h-[7%]" />
@@ -42,7 +45,7 @@ const Test: React.FC = () => {
                     {/* new section */}
                     <main className=' px-[35px]'>
 
-                        <div className='my-10 bg-[#FBFCF6] p-14 rounded-xl'>
+                        <div className='my-10 bg-[#FBFCF6] p-14 rounded-xl flex  flex-col justify-center items-center'>
                             <h2 className='text-2xl font-semibold'>Tests Included</h2>
                             <p className='text-md text-[#52B2AD] font-semibold pb-10'>6 tests | 69 parameters</p>
                             <AccordionComponent />
@@ -54,19 +57,8 @@ const Test: React.FC = () => {
 
             </div>
             <div className="flex flex-col md:flex-row items-center justify-center min-h-screen gap-7 pt-72 pb-10  px-24">
-                <div className='w-[40%] mt-[-600px]'>
-                    <Carousel />
-                </div>
-                <div className="md:w-1/2 w-full pr-28 flex flex-col justify-between">
-                    <div className="bg-white rounded-3xl px-[65px] py-8 mb-4 border-[#C9D851] border-2">
-                        <Image src="/3steps.webp" alt="MediBridge Building" className="rounded-md mb-2 w-full h-auto" width={500} height={100} />
-                        <button className="bg-[#0F3C49] text-white px-4 py-3  rounded-xl w-full mt-[-25px]">Order now</button>
-                    </div>
-                    <div className="">
-                        <Image src="/medibuild.webp" alt="MediBridge Building" className="" width={500} height={100} />
-                        {/* <button className="bg-blue-600 text-white px-4 py-3 rounded">Watch Video</button> */}
-                    </div>
-                </div>
+              <WhyMedi/>
+                
             </div>
             <div
                 className="relative px-16 py-14 flex flex-col h-[280px] w-[74%] mx-32 mb-10 border-2 border-[#C9D851] rounded-[50px] "
@@ -77,7 +69,8 @@ const Test: React.FC = () => {
                 {/* <Image src="/newsletterimg1.webp" alt="MediBridge Building" className="w-full h-auto" width={500} height={100} /> */}
                 <button className=" bg-[#52B2AD] text-white px-4 py-3 rounded-[20px] w-[25%] my-5">Subscribe </button>
             </div>
-
+            <Blogs/>
+            <GoogleMapSection/>
 
         </main>
     );
