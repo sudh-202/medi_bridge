@@ -2,23 +2,40 @@
 import Image from 'next/image'
 import { cards } from '@/constant';
 import LogoSlider from '@/components/LogoSlider';
+import SpecialPackages from '@/components/SpecialPackages';
+import { specialPackageData } from '@/constant';
+import FullBodyCarousel from '@/components/FullBodyCarousel';
+import HealthCheckupsSection from '@/components/HealthCheckupsSection';
+import MedicalCheckups from '@/components/MedicalCheckups';
+import WhyMedi from '@/components/WhyMedi';
+import ImageGallery from '@/components/(home)/ImageGallery';
+import Blogs from '@/components/(home)/Blogs';
+import GoogleMapSection from '@/components/GoogleMapSection';
+import FullBodyCheckupSection from '@/components/FullBodyCheckupSection';
 
 const liver = () => {
   const itemsToShow = 6; // Show n-1 items
         const totalItems = cards.length * 2;
   return (
-    <main className='lg:w-[100%] h-full'>
-    <Image
-      src='/careersbanner.webp'
-      alt='Masklogo'
-      width={1920}
-      height={1000}
-    />
-    <div className="text-xl lg:text-4xl font-medium flex justify-center p-10">Search Test and Packages by Category</div>
-    <main className="flex flex-col items-center justify-center py-10">
-        <LogoSlider />
-        </main>
+    < main className='bg-white'>
+    <SpecialPackages
+        title={specialPackageData.title}
+        description={specialPackageData.description}
+        image={specialPackageData.image}
+        offerText={specialPackageData.offerText}
+        labInfo={specialPackageData.labInfo}
+      />
+      <FullBodyCarousel />
+      <main className="min-h-screen bg-gray-50">
+      <HealthCheckupsSection />
     </main>
+    <MedicalCheckups />
+    <WhyMedi />
+    <FullBodyCheckupSection/>
+    {/* <ImageGallery /> */}
+    <Blogs/>
+    <GoogleMapSection/>
+      </main>
 
   )
 }

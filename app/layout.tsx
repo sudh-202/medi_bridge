@@ -24,7 +24,7 @@ export default function RootLayout({
       
       <Toast>
         <Navbar/>
-        <main className="relative overflow-hidden">
+        <main className="relative overflow-hidden bg-white">
           {children}
         </main>
         <Footer />

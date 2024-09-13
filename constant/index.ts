@@ -919,26 +919,88 @@ export const safetyMeasures = [
 
 // constants/index.ts
 
-export const mediData = [
-  {
-    id: 1,
-    image: 'https://source.unsplash.com/random/800x600/?wellness',
-    title: 'Comprehensive Wellness',
-    description: 'We offer a full range of wellness services for body and mind.',
-  },
-  {
-    id: 2,
-    image: 'https://source.unsplash.com/random/800x600/?health',
-    title: 'Expert Guidance',
-    description: 'Our experts provide personalized plans tailored to your needs.',
-  },
-  {
-    id: 3,
-    image: 'https://source.unsplash.com/random/800x600/?fitness',
-    title: 'State-of-the-Art Facilities',
-    description: 'Enjoy your wellness journey in our cutting-edge facilities.',
-  },
+// constants/index.ts
+
+export const specialPackageData = {
+  title: "Special Diabetes Packages",
+  description:
+    "In today's fast-paced world, it's essential to prioritize your health and not let it take a back seat. Experience hassle-free testing by booking our comprehensive full body checkup near you in Bihar Shareef. Leave all your health worries to us and ensure a thorough examination of your entire body in the comfort of your own home!",
+  image: "./bloodtest.webp", // Random image URL
+  offerText: "Get 15% OFF* on first order above ₹500 | Use: MediBridge",
+  labInfo: [
+    {
+      icon: "/badge.webp",
+      text: "In-house labs 400+ tests",
+    },
+    {
+      icon: "/tube.webp",
+      text: "60 mins collection 6 AM - 10 PM",
+    },
+    {
+      icon: "/clock.webp",
+      text: "Reports in 6 hours",
+    },
+  ],
+};
+
+export const imageDatafull = [
+  "/swasth.webp",  // Replace with actual paths or URLs to your images
+  "/swasth.webp",
+  "/swasth.webp",
+  // Add more images as necessary
 ];
+
+// constants/index.ts
+
+export const healthCheckups = {
+  popular: [
+    { title: "Full body checkup", icon: "👨‍⚕️", category: "full-body" },
+    { title: "Allergy Checkup", icon: "🌿", category: "allergy" },
+    { title: "Women Health", icon: "♀️", category: "women-health" },
+    { title: "Sexual Health", icon: "⚥", category: "sexual-health" },
+  ],
+  curated: [
+    { title: "Diabetes Checkup", icon: "💉", category: "diabetes" },
+    { title: "Senior Citizen", icon: "👵", category: "senior-citizen" },
+    { title: "Fever Checkup", icon: "🌡️", category: "fever" },
+    { title: "Full Body Checkups", icon: "🩺", category: "full-body" },
+    { title: "Lifestyle Checkup", icon: "💪", category: "lifestyle" },
+    { title: "Cancer Checkup", icon: "🎗️", category: "cancer" },
+  ]
+}
+
+// constant/index.ts
+export const fullBodyCheckupData = {
+  title: "What is a full body checkup?",
+  description:
+    "A full body checkup, also known as a complete body checkup is a collection of health checkups and tests ...",
+  purpose: {
+    title: "What is the purpose of Full Body Check-up",
+    content:
+      "The world around us is constantly evolving, and so are we. With the advancement of technology ...",
+  },
+  benefits: {
+    title: "What are the benefits of Getting a Full Body Checkup",
+    content:
+      "Increased risks include not only the city of people in need of having bacterial toxins ...",
+  },
+  keyComponents: {
+    title: "What are the key components of a Full Body Checkup",
+    content:
+      "With MediBridge’s full body check-up, your worries can be taken to the back seat ...",
+  },
+  stepsToBook: {
+    title: "Steps to Book a Health Checkup Package",
+    steps: [
+      "Discuss your health concerns with our team.",
+      "Choose a suitable health package based on your health needs.",
+      "Our health experts will guide you through the booking process.",
+      "Get accurate results after the checkup without stepping out of your home.",
+    ],
+  },
+};
+
+
 
 
 
